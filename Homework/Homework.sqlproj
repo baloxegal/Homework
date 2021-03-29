@@ -125,9 +125,13 @@
     <Build Include="dbo\Tables\course.sql" />
     <Build Include="dbo\Tables\stud_course.sql" />
     <Build Include="dbo\Tables\student.sql" />
-    <Build Include="dbo\Tables\group.sql" />
+    <Build Include="dbo\Tables\Marks.sql" />
+    <Build Include="dbo\Tables\Groups.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Script1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Homework.refactorlog" />
   </ItemGroup>
 </Project>
